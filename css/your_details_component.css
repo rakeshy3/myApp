@@ -1,0 +1,158 @@
+.your-details-container{
+  padding:40px 30px;
+  }
+ 
+.disabled:disabled {
+    background: #F8F9FA!important;
+    color: #62707C;
+    opacity: 1!important;
+}
+
+.panel{
+	box-shadow:none;
+}
+
+.checkout-step{
+	border-bottom: 2px solid #F5F6F8;
+	margin-bottom:25px;
+	
+}
+  
+  .application-container .form-group{
+	  margin-bottom:20px;
+  }
+  .application-container .form-group label{
+	  font-size:21px;
+	  font-weight:normal;
+	  margin-bottom: 20px;
+	  margin-top: 10px;
+	  color: #031b30;
+  }
+.your-details-container h2{
+	  margin:0;
+  }
+.your-details-container .p-small{
+	  margin-top:0px;
+  }
+  .num-of-centers{
+	  float:right;
+  }
+  .info{
+    background-color: #c0dbf8;
+    border-left: 4px solid #007bff;
+    border-radius: 0;
+  }
+  .apply-for .radio label,.app-process .radio label{
+	border: 1px solid #5f717d;
+    padding: 10px 55px 10px 32px;
+    border-radius: 5px;
+    color: black;
+	width:30%;
+	font-size: 18px;
+}
+.quick-decision .radio label{
+	border: 1px solid #5f717d;
+    padding: 10px 55px 10px 32px;
+    border-radius: 5px;
+    color: black;
+	width:30%;
+	font-size: 18px;
+	
+}
+.buttonTop{
+	margin-top:40px;
+}
+.contact-num label{
+	display: block;
+}
+.contact-num .country-code{
+    width: 10%;
+    display: inline-block;
+}
+.contact-num .ph-num{
+    width: 88%;
+    display: inline-block;
+    margin-left: 11px;
+}
+a.anchor-heading {
+    text-decoration: none;
+    color: #031b30;
+    font-size: 24px;
+    cursor: default;
+}
+.accordion-header{
+	margin-bottom:20px;
+}
+.your-details-container input[type=date] {
+    font-size: 1.8rem;
+    font-family: Inter UI, ZawgyiOne, Arial, Helvetica, sans-serif;
+    color: #000;
+    border: 1px solid #5f717d;
+    height: 48px;
+    border-radius: 5px;
+    padding: 0 16px;
+}
+.gender .radio-option {
+    display: inline;
+}
+.gender .radio label {
+    border: 1px solid #5f717d;
+    padding: 5px 32px 5px 48px;
+    border-radius: 5px;
+    color: black;
+    width: 32%;
+    font-size: 18px;
+    margin-right: 8px;
+}
+ .action-item-accordion{
+display: inline-block;
+												float: right;
+}
+.panel.checkout-step.single-applicant .anchor-heading:after {
+    display: none;
+} 
+.panel.accordion-item.checkout-step:last-child {
+    border: none;
+}
+form#yourDetailForm label {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 15px;
+	color: #000;
+}
+form#yourDetailForm .form-group {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+	.pad-l-0 {
+    padding-left: 0px;
+}
+
+	.pad-r-0 {
+		padding-right: 0px;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+.radio label{
+	width: 100% !important;
+	margin:5px 0 !important;
+}
+.buttonTop{
+	margin-top:20px;
+}
+.contact-num .ph-num {
+    width: 71%;
+}
+.contact-num .country-code {
+    width: 23%;
+}
+
+.pad-xs-0{
+	padding:0px
+	
+}
+
+}
